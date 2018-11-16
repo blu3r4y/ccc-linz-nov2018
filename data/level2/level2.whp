@@ -1,0 +1,5 @@
+$ntuples
+$tuple{$ntuples}
+
+
+$$tuple = $r1 $c1 $r2 $c2 $[float]ratio
