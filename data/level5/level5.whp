@@ -1,0 +1,4 @@
+$nrows $ncols $s
+$row{$nrows}
+
+$$row = $col{$ncols}
