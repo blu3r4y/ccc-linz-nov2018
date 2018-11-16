@@ -1,2 +1,7 @@
+import numpy as np
+
+
 def main(input):
-    return "Result"
+    grid = np.array(input["rows"])
+    heights = sorted(np.unique(grid))
+    return ' '.join(map(str, heights[1:]))
